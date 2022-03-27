@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Suchat Tangjarukij">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Quiz </title>
+</head>
+<body>
+    <header>
+        <h1>HTTP vs HTTPs</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./topic.html">Topic</a>
+            </li>
+            <li>
+                <a href="./quiz.html">Quiz</a>
+            </li>
+            <li>
+                <a href="./enhancement.html">Enhancement</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="content-wrapper">
+        <section>
+            <h2>QUIZ</h2>
+            <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+                <fieldset>
+                    <legend> Student:: </legend>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="John" required pattern="[a-z\sA-z-]{0,30}"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Doe" required pattern="[a-z\sA-z-]{0,30}"><br>
+                    <label for="sid">student number:</label><br>
+                    <input type="text" id="sid" name="sid" value="1234567890" required pattern="[0-9]{7}|[0-9]{10}"><br><br>
+                  </fieldset>
+                  <fieldset>
+                    <legend>Quiz 1</legend>
+                    <p>
+                        Describe the relationship between HTTP, HTTPs and SSL.
+                    </p>
+                    <label for="q1">Answer</label><br>
+                    <input type="text" id="q1" name="q1" required><br><br>
+                  </fieldset>
+                  <fieldset>
+                    <legend>Quiz 2</legend>
+                    <p>
+                        Which should be used in production(public access) environment by default.
+                    </p>
+                    <input type="radio" id="q2_a" name="q2" value="a" required>
+                    <label for="q2_a">HTTP</label><br>
+                    <input type="radio" id="q2_b" name="q2" value="b">
+                    <label for="q2_b">HTTPs</label><br>
+
+                  </fieldset>
+                  <fieldset>
+                    <legend>Quiz 3</legend>
+                    <p>
+                        Which is/are the encryption methods?
+                    </p>
+                    
+                    <input type="checkbox" id="q3a" name="q3a" value="a">
+                    <label for="q3a">SSL</label><br>
+                    <input type="checkbox" id="q3b" name="q3b" value="b">
+                    <label for="q3b">HTTPS</label><br>
+                    <input type="checkbox" id="q3c" name="q3c" value="c">
+                    <label for="q3c">HTTP</label><br>
+                    <input type="checkbox" id="q3d" name="q3d" value="d">
+                    <label for="q3d">TLS</label><br>
+
+                    
+
+                  </fieldset>
+                  <fieldset>
+                    <legend>Quiz 4</legend>
+                    <p>
+                        Which browser will label the HTTP with a green padlock?
+                    </p>
+                    <label for="q4">Select answer from dropdown</label><br>
+                    <input list="q4_l" id="q4" name="q4" required>
+                    <datalist id="q4_l">
+                        <option value="Internet Explorer">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                    </datalist>
+                  </fieldset>
+                  <fieldset>
+                    <legend>Quiz 5</legend>
+                    <p>
+                        When does SSL became obsolete?
+                    </p>
+                    <label for="q5">year</label><br>
+                    <input type="number" id="q5" name="q5" required>
+                  </fieldset>
+                  <fieldset>
+                      <legend>Submit</legend>
+                      <input type="submit" value="Submit">
+                  </fieldset>
+            </form>
+        </section>
+        
+    </div>
+    
+
+
+    <!-- footer section -->
+    <footer>
+        <h2>Footer</h2>
+        <h3>Author</h3>
+        <p>Suchat Tangjarukij</p>
+        <h3>Email</h3>
+        <p><a href="mailto:10311958@student.swin.edu.au">10311958@student.swin.edu.au</a></p>
+    </footer>
+</body>
+</html>

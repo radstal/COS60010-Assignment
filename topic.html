@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Suchat Tangjarukij">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Topic</title>
+</head>
+<body>
+    <header>
+        <h1>HTTP vs HTTPs</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./topic.html">Topic</a>
+            </li>
+            <li>
+                <a href="./quiz.html">Quiz</a>
+            </li>
+            <li>
+                <a href="./enhancement.html">Enhancement</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="content-wrapper">
+        <nav class="nav-article">
+            <h2>Navigation</h2>
+            <ol>
+                <li>
+                    <a href="#Introduction">Introduction</a>
+                    <ol>
+                        <li>HTTP</li>
+                        <li>HTTPs</li>
+                        <li>SSL</li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#HTTPvsHTTPsComparison">HTTP vs HTTPs Comparison</a>
+                </li>
+                <li>
+                    <a href="#Definitions">Definitions</a>
+                </li>
+            </ol>
+        </nav>
+        <section id="Introduction"> 
+            <h2>Introduction</h2>
+            <article>
+            
+                <h3>HTTP</h3>
+                <aside>
+                    <figure>
+                        <div class="figure-img-wrapper">
+                            <img 
+                            src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80" 
+                            alt="banana for scale"
+                        >
+                        </div>
+                        
+                        <figcaption>Fig.1 - banana: for scale</figcaption>.</figcaption>
+                      </figure>
+                    <p>Http is talking to your friend in the middle of a party.</p>
+                </aside>
+                <p>
+                    HTTP is a protocol for retrieving data such as HTML pages. It is the cornerstone of all data interchange on the Internet, and it is a client-server protocol, meaning that requests are started by the recipient, which is commonly the Web browser. Text, layout descriptions, photos, videos, scripts, and other sub-documents are fetched, and a full document is reconstructed from them.
+                </p>
+            </article>
+    
+            <article>
+                <h3>HTTPs</h3>
+                <aside>
+                    <p>
+                        Https is you and your friend talking alone in a soundproof room.
+                    </p>
+                </aside>
+                <p>
+                    HTTPS is a secure version of HTTP, which is the most used protocol for sending data between a web browser and a website. This is especially crucial when users send sensitive information over the internet, such as bank account information.
+                    HTTPS should be used on any website. Websites that do not employ HTTPS are indicated differently. A green padlock in the URL bar in chrome indicates that the webpage is safe.Chrome and other browsers will flag any non-HTTPS websites as insecure.
+                </p>
+            </article>
+            <article>
+                <h3>SSL/TLS</h3>
+                <aside>
+                    <p>
+                        The sound proof for HTTPs's private conversation. 
+                    </p>
+                </aside>
+                <p>
+                    SSL (Secure Sockets Layer) and TLS (Transport Layer Security), are protocols for creating authorised and encrypted connections. SSL protocol was deprecated with the introduction of TLS in 1999, these technologies are commonly referred to as "SSL" or "SSL/TLS."
+                </p>
+            </article>
+        </section>
+        <section id="HTTPvsHTTPsComparison">
+            <h2>HTTP vs HTTPs Comparison</h2>
+            <article>
+                <h3>Comparison Table</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>feature</th>
+                            <th>HTTP</th>
+                            <th>HTTPs</th>
+                        </tr>
+                        
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Prefix Used</td>
+                            <td>http://</td>
+                            <td>https://</td>
+                        </tr>
+                        <tr>
+                            <td>Security</td>
+                            <td>unsecured</td>
+                            <td>secured</td>
+                        </tr>
+                        <tr>
+                            <td>Certificate Needed</td>
+                            <td>No</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Port Used</td>
+                            <td>80</td>
+                            <td>443</td>
+                        </tr>
+                        <tr>
+                            <td>Characteristics</td>
+                            <td>It is subject to man-in-the-middle and eavesdropping attacks.</td>
+                            <td>It is designed to resist man-in-the-middle and eavesdropping attacks and is considered secure against such attacks.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>should be used as a default</th>
+                            <th>No</th>
+                            <th>Yes</th>
+                        </tr>
+                    </tfoot>
+                    
+                </table>
+            </article>
+            
+            
+        </section>
+        <section id="Definitions">
+            <h2>Definitions</h2>
+            <article>
+                <h3>Common Abbreviations</h3>
+                <dl>
+                    <dt>HTTP</dt>
+                    <dd>Hyper Text Transfer Protocol</dd>
+                    <dt>HTTPs</dt>
+                    <dd>Hyper Text Transfer Protocol Secure</dd>
+                    <dt>SSL</dt>
+                    <dd>Secure Socket Layer</dd>
+                    <dt>TLS</dt>
+                    <dd>Transport Later Security</dd>
+
+                </dl>
+            </article>
+        </section>
+        <section>
+            <h2>Sources</h2>
+            <a href="https://www.venafi.com/blog/what-are-differences-between-http-https-0">HTTP vs HTTPs</a>
+        </section>
+    </div>
+    
+
+
+    <!-- footer section -->
+    <footer>
+        <h2>Footer</h2>
+        <h3>Author</h3>
+        <p>Suchat Tangjarukij</p>
+        <h3>Email</h3>
+        <p><a href="mailto:10311958@student.swin.edu.au">10311958@student.swin.edu.au</a></p>
+    </footer>
+</body>
+</html>
