@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,26 +9,13 @@
     <link rel="stylesheet" href="./styles/style.css">
     <title>Topic</title>
 </head>
+
 <body>
     <header>
         <h1>HTTP vs HTTPs</h1>
     </header>
-    <nav class="navbar">
-        <ul>
-            <li>
-                <a href="./index.html">Home</a>
-            </li>
-            <li>
-                <a href="./topic.html">Topic</a>
-            </li>
-            <li>
-                <a href="./quiz.html">Quiz</a>
-            </li>
-            <li>
-                <a href="./enhancement.html">Enhancement</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="hidden" id="page_title">topic</div>
+    <script src="./components/nav.js"></script>
     <div class="content-wrapper">
         <nav class="nav-article">
             <h2>Navigation</h2>
@@ -48,29 +36,27 @@
                 </li>
             </ol>
         </nav>
-        <section id="Introduction"> 
+        <section id="Introduction">
             <h2>Introduction</h2>
             <article>
-            
+
                 <h3>HTTP</h3>
                 <aside>
                     <figure>
                         <div class="figure-img-wrapper">
-                            <img 
-                            src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80" 
-                            alt="banana for scale"
-                        >
+                            <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="banana for scale">
                         </div>
-                        
+
                         <figcaption>Fig.1 - banana: for scale</figcaption>.</figcaption>
-                      </figure>
+                    </figure>
                     <p>Http is talking to your friend in the middle of a party.</p>
                 </aside>
                 <p>
-                    HTTP is a protocol for retrieving data such as HTML pages. It is the cornerstone of all data interchange on the Internet, and it is a client-server protocol, meaning that requests are started by the recipient, which is commonly the Web browser. Text, layout descriptions, photos, videos, scripts, and other sub-documents are fetched, and a full document is reconstructed from them.
+                    HTTP is a protocol for retrieving data such as HTML pages. It is the cornerstone of all data interchange on the Internet, and it is a client-server protocol, meaning that requests are started by the recipient, which is commonly the Web browser. Text,
+                    layout descriptions, photos, videos, scripts, and other sub-documents are fetched, and a full document is reconstructed from them.
                 </p>
             </article>
-    
+
             <article>
                 <h3>HTTPs</h3>
                 <aside>
@@ -79,15 +65,15 @@
                     </p>
                 </aside>
                 <p>
-                    HTTPS is a secure version of HTTP, which is the most used protocol for sending data between a web browser and a website. This is especially crucial when users send sensitive information over the internet, such as bank account information.
-                    HTTPS should be used on any website. Websites that do not employ HTTPS are indicated differently. A green padlock in the URL bar in chrome indicates that the webpage is safe.Chrome and other browsers will flag any non-HTTPS websites as insecure.
+                    HTTPS is a secure version of HTTP, which is the most used protocol for sending data between a web browser and a website. This is especially crucial when users send sensitive information over the internet, such as bank account information. HTTPS should
+                    be used on any website. Websites that do not employ HTTPS are indicated differently. A green padlock in the URL bar in chrome indicates that the webpage is safe.Chrome and other browsers will flag any non-HTTPS websites as insecure.
                 </p>
             </article>
             <article>
                 <h3>SSL/TLS</h3>
                 <aside>
                     <p>
-                        The sound proof for HTTPs's private conversation. 
+                        The sound proof for HTTPs's private conversation.
                     </p>
                 </aside>
                 <p>
@@ -106,7 +92,7 @@
                             <th>HTTP</th>
                             <th>HTTPs</th>
                         </tr>
-                        
+
 
                     </thead>
                     <tbody>
@@ -143,11 +129,11 @@
                             <th>Yes</th>
                         </tr>
                     </tfoot>
-                    
+
                 </table>
             </article>
-            
-            
+
+
         </section>
         <section id="Definitions">
             <h2>Definitions</h2>
@@ -171,7 +157,7 @@
             <a href="https://www.venafi.com/blog/what-are-differences-between-http-https-0">HTTP vs HTTPs</a>
         </section>
     </div>
-    
+
 
 
     <!-- footer section -->
@@ -183,4 +169,5 @@
         <p><a href="mailto:10311958@student.swin.edu.au">10311958@student.swin.edu.au</a></p>
     </footer>
 </body>
+
 </html>

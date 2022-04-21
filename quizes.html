@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +9,26 @@
     <script src="./scripts/quiz.js"></script>
     <title>Quiz </title>
 </head>
-
 <body>
     <header>
         <h1>HTTP vs HTTPs</h1>
     </header>
-    <div class="hidden" id="page_title">quiz</div>
-    <script src="./components/nav.js"></script>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./topic.html">Topic</a>
+            </li>
+            <li>
+                <a href="./quiz.html">Quiz</a>
+            </li>
+            <li>
+                <a href="./enhancement.html">Enhancement</a>
+            </li>
+        </ul>
+    </nav>
     <div class="content-wrapper">
         <section>
             <h2>QUIZ</h2>
@@ -24,21 +36,21 @@
                 <fieldset>
                     <legend> Student </legend>
                     <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" value="John"><br>
+                    <input type="text" id="fname" name="fname" ><br>
                     <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="Doe"><br>
+                    <input type="text" id="lname" name="lname" ><br>
                     <label for="sid">student number:</label><br>
-                    <input type="text" id="sid" name="sid" value="1234567890"><br><br>
-                </fieldset>
-                <fieldset>
+                    <input type="text" id="sid" name="sid"><br><br>
+                  </fieldset>
+                  <fieldset>
                     <legend>Quiz 1</legend>
                     <p>
                         Describe the relationship between HTTP, HTTPs and SSL.
                     </p>
                     <label for="q1">Answer</label><br>
                     <input type="text" id="q1" name="q1" required><br><br>
-                </fieldset>
-                <fieldset>
+                  </fieldset>
+                  <fieldset>
                     <legend>Quiz 2</legend>
                     <p>
                         Which should be used in production(public access) environment by default.
@@ -48,13 +60,13 @@
                     <input type="radio" id="q2_b" name="q2" value="HTTPs">
                     <label for="q2_b">HTTPs</label><br>
 
-                </fieldset>
-                <fieldset>
+                  </fieldset>
+                  <fieldset>
                     <legend>Quiz 3</legend>
                     <p>
                         Which is/are the encryption methods?
                     </p>
-
+                    
                     <input type="checkbox" id="q3a" name="q3a" value="SSL">
                     <label for="q3a">SSL</label><br>
                     <input type="checkbox" id="q3b" name="q3b" value="HTTPs">
@@ -64,10 +76,10 @@
                     <input type="checkbox" id="q3d" name="q3d" value="TLS">
                     <label for="q3d">TLS</label><br>
 
+                    
 
-
-                </fieldset>
-                <fieldset>
+                  </fieldset>
+                  <fieldset>
                     <legend>Quiz 4</legend>
                     <p>
                         Which browser will label the HTTP with a green padlock?
@@ -81,24 +93,24 @@
                         <option value="Opera">
                         <option value="Safari">
                     </datalist>
-                </fieldset>
-                <fieldset>
+                  </fieldset>
+                  <fieldset>
                     <legend>Quiz 5</legend>
                     <p>
                         When does SSL became obsolete?
                     </p>
                     <label for="q5">year</label><br>
                     <input type="number" id="q5" name="q5" required>
-                </fieldset>
-                <fieldset>
-                    <legend>Submit</legend>
-                    <input type="submit" value="Submit">
-                </fieldset>
+                  </fieldset>
+                  <fieldset>
+                      <legend>Submit</legend>
+                      <input type="submit" value="Submit">
+                  </fieldset>
             </form>
         </section>
-
+        
     </div>
-
+    
 
 
     <!-- footer section -->
@@ -110,5 +122,4 @@
         <p><a href="mailto:10311958@student.swin.edu.au">10311958@student.swin.edu.au</a></p>
     </footer>
 </body>
-
 </html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhancement2</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>HTTP vs HTTPS</h1>
+    </header>
+    <div class="hidden" id="page_title">enhancement2</div>
+    <script src="./components/nav.js"></script>
+    <div class="content-wrapper">
+        <section>
+            <h2>Enhancement 2</h2>
+            <article>
+                <h2>2.1</h2>
+                <h3>Shared Components using Javascript</h3>
+                <p>
+                    In every page I have included shared components in 
+                    <a href="./components/nav.js">a javascript file</a> 
+                    that create a navbar on load. 
+                    Then the js looks in to a hidden element in html to determine which page it is on.
+                    lastly, the javascript set the corresponding botton to be active.
+                </p>
+                <h3>links</h3>
+                <p>
+                    It is up there. 
+                </p>
+                <h3>resources</h3>
+                <p>me</p>
+            </article>
+            <article>
+                <h2>2.2</h2>
+                <h3>Animated Background</h3>
+                <p>
+                    the animated background is in the <a href="./result.html">result</a> page. 
+                    Using javascript to create canvas and executing WebGL/OpenGL metaball codes I found online.
+                    combined css mix-blend-mode to create an overlay effect on answer suggestions.
+                    <br>
+                    Additionally, the question suggestions are passed from quiz page to the result page using json.stringify function generating
+                    elements with differently marked colors.
+            
+                </p>
+                <h3>resources</h3>
+                <ul>
+                    <li><a href="https://webartdevelopers.com/blog/metaballs-webgl/">MetaBall</a></li>
+                </ul>
+            </article>
+        </section>
+    </div>
+</body>
+</html>
